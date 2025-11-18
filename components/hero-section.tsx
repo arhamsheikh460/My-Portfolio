@@ -41,7 +41,7 @@ export function HeroSection() {
     <section
       id="home"
       ref={containerRef}
-      className="min-h-screen xl:min-h-auto xl:mt-20 xl:pb-20 flex items-center justify-center pt-20 relative overflow-hidden"
+      className="min-h-[80vh] 2xl:min-h-[40vh]  flex items-center justify-center pt-20 relative overflow-hidden"
     >
       {/* Animated gradient background */}
       <div 
@@ -60,11 +60,15 @@ export function HeroSection() {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="animate-slide-in-left space-y-6 w-full flex flex-col items-center text-center">
-          <div className="space-y-2">
+          <div className="space-y-3">
             <div className="text-sm md:text-xl font-medium text-muted-foreground uppercase tracking-wider">
-              Welcome to my portfolio
+              Hello WORLD
             </div>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter leading-tight">
+              I Am Arham
+               
+            </h1>
+             <h1 className="text-5xl md:text-6xl lg:text-7xl font-black tracking-tighter leading-tight">
               Full-Stack <span className="text-6xl lg:text-7xl font-black tracking-tighter leading-tight bg-gradient-to-r from-foreground via-muted-foreground to-foreground bg-clip-text text-transparent">
                  Developer
               </span>
