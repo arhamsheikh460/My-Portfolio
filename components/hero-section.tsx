@@ -41,7 +41,7 @@ export function HeroSection() {
     <section
       id="home"
       ref={containerRef}
-      className="min-h-[80vh] 2xl:min-h-[40vh]  flex items-center justify-center pt-20 relative overflow-hidden"
+      className="min-h-screen  flex items-center justify-center pt-20 relative overflow-hidden"
     >
       {/* Animated gradient background */}
       <div 
@@ -82,13 +82,13 @@ export function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
             <button 
               onClick={handleGetInTouch}
-              className="px-8 py-3 bg-foreground text-background font-semibold rounded-lg hover:shadow-lg transition-all duration-300 hover:scale-105 active:scale-95"
+              className="px-8 py-3 bg-foreground text-background font-semibold rounded-lg hover:shadow-lg transition-all duration-300 cursor-pointer"
             >
               Get in Touch
             </button>
             <button 
               onClick={handleDownloadResume}
-              className="px-8 py-3 border border-foreground text-foreground font-semibold rounded-lg hover:bg-muted transition-all duration-300"
+              className="px-8 py-3 border border-foreground text-foreground font-semibold rounded-lg hover:bg-muted transition-all duration-300 cursor-pointer"
             >
               Download Resume
             </button>
